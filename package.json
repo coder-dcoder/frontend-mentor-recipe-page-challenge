@@ -1,0 +1,21 @@
+{
+  "name": "project-rpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fronend",
+    "mento",
+    "project",
+    "challenge"
+  ],
+  "author": "shihab pramanik",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "sass": "^1.80.3"
+  }
+}

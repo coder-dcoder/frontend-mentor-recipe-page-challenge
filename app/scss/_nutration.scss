@@ -1,0 +1,31 @@
+.Nutrition {
+  margin-bottom: 25px;
+
+  h3 {
+    font-family: "Young Serif", serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: hsl(14, 45%, 36%);
+  }
+
+  p {
+    color: hsl(24, 5%, 18%);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  td {
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: hsl(24, 5%, 18%);
+  }
+
+  th {
+    text-align: left;
+    color: hsl(14, 45%, 36%);
+    border-bottom: 1px solid #ddd;
+  }
+}

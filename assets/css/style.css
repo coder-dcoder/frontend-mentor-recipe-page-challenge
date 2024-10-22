@@ -1,0 +1,134 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.3;
+}
+
+.container {
+  max-width: 375px;
+  height: auto;
+  margin: 10px;
+}
+
+hr {
+  opacity: 0.5;
+  border: 1px solid hsla(24, 5%, 18%, 0.3);
+  border-radius: 5px;
+}
+
+header img {
+  width: 100%;
+}
+
+.Preparation-time {
+  background-color: hsla(14, 45%, 36%, 0.2);
+  padding: 15px;
+  border-radius: 5px;
+}
+.Preparation-time h3 {
+  color: hsl(332, 51%, 32%);
+}
+.Preparation-time ul {
+  margin: 22px;
+  padding: 0;
+  color: hsl(24, 5%, 18%);
+}
+.Preparation-time ul li {
+  margin: 5px 0;
+  padding-inline-start: 15px;
+}
+.Preparation-time ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.introduction .header-title {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+.introduction p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.ingredients h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(14, 45%, 36%);
+}
+.ingredients ul {
+  margin: 22px;
+  padding: 0;
+  color: hsl(24, 5%, 18%);
+}
+.ingredients ul li {
+  margin: 5px 0;
+  padding-inline-start: 15px;
+}
+.ingredients ul li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(14, 45%, 36%);
+}
+.instructions ol {
+  margin: 22px;
+  padding: 0;
+  color: hsl(24, 5%, 18%);
+}
+.instructions ol li {
+  margin: 5px 0;
+  padding-inline-start: 15px;
+}
+.instructions ol li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+.Nutrition {
+  margin-bottom: 25px;
+}
+.Nutrition h3 {
+  font-family: "Young Serif", serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(14, 45%, 36%);
+}
+.Nutrition p {
+  color: hsl(24, 5%, 18%);
+}
+.Nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.Nutrition td {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: hsl(24, 5%, 18%);
+}
+.Nutrition th {
+  text-align: left;
+  color: hsl(14, 45%, 36%);
+  border-bottom: 1px solid #ddd;
+}
+
+/*# sourceMappingURL=style.css.map */
