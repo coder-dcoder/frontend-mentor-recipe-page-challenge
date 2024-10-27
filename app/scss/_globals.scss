@@ -1,3 +1,5 @@
+@use "variable" as v;
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -21,8 +23,11 @@ body {
   height: auto;
   margin: 10px;
 
-  @media (min-width: 375px) {
-    max-width: 1000px;
+  @include v.breakpoint {
+    margin-inline: auto;
+    max-width: 62.5em;
+    height: auto;
+    padding: 0.625rem;
   }
 }
 

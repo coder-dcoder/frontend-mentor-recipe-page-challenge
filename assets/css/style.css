@@ -21,9 +21,12 @@ body {
   height: auto;
   margin: 10px;
 }
-@media (min-width: 375px) {
+@media (min-width: 23.4375em) {
   .container {
-    max-width: 1000px;
+    margin-inline: auto;
+    max-width: 62.5em;
+    height: auto;
+    padding: 0.625rem;
   }
 }
 
@@ -33,14 +36,18 @@ hr {
   border-radius: 5px;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
 header img {
   width: 100%;
-  max-width: 375px;
+  max-width: 23.4375em;
 }
 @media (min-width: 375px) {
   header img {
-    max-width: 1000px;
-    padding: 10px;
+    max-width: 62.5em;
+    padding: 0.625rem;
     border-radius: 15px;
   }
 }
@@ -101,7 +108,7 @@ header img {
 .instructions h3 {
   font-family: "Young Serif", serif;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: hsl(14, 45%, 36%);
 }
 .instructions ol {
