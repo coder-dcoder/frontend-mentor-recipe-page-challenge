@@ -21,6 +21,11 @@ body {
   height: auto;
   margin: 10px;
 }
+@media (min-width: 375px) {
+  .container {
+    max-width: 1000px;
+  }
+}
 
 hr {
   opacity: 0.5;
@@ -30,6 +35,14 @@ hr {
 
 header img {
   width: 100%;
+  max-width: 375px;
+}
+@media (min-width: 375px) {
+  header img {
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 15px;
+  }
 }
 
 .Preparation-time {

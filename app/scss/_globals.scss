@@ -20,6 +20,10 @@ body {
   max-width: 375px; //for moble first
   height: auto;
   margin: 10px;
+
+  @media (min-width: 375px) {
+    max-width: 1000px;
+  }
 }
 
 hr {
